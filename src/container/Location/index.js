@@ -40,7 +40,10 @@ const Location = () => {
                     longitudeDelta: 0.0421,
                 }}
             >
-                <Marker pinColor='red' coordinate={{
+                <Marker 
+                draggable
+                pinColor='red' 
+                coordinate={{
                     latitude: location.latitude,
                     longitude: location.longitude,
                 }}
